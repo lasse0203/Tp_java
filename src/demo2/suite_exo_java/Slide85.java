@@ -1,5 +1,3 @@
-package demo2.suite_exo_java;
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -7,7 +5,7 @@ public class Slide85 {
     public static void main(String[] args) {
         Random random = new Random();
         int chiffreGagnant = random.nextInt(100);
-        System.out.println(chiffreGagnant);
+        // System.out.println(chiffreGagnant);
 
         int i=1;
 
@@ -18,8 +16,7 @@ public class Slide85 {
         while (nombre != chiffreGagnant){
             if (nombre < chiffreGagnant){
                 System.out.print("Le nombre est plus grand ");
-            }
-            else {
+            } else {
                 System.out.print("Le nombre est plus petit ");
             }
             nombre = scanner.nextInt();
@@ -30,4 +27,3 @@ public class Slide85 {
 
     }
 }
-
