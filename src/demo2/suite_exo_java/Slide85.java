@@ -18,7 +18,8 @@ public class Slide85 {
         while (nombre != chiffreGagnant){
             if (nombre < chiffreGagnant){
                 System.out.print("Le nombre est plus grand ");
-            } else {
+            }
+            else {
                 System.out.print("Le nombre est plus petit ");
             }
             nombre = scanner.nextInt();
